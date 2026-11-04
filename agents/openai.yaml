@@ -1,0 +1,4 @@
+interface:
+  display_name: "剪映教程视频剪辑"
+  short_description: "将录屏和实拍剪成可分轨精修的教程，交付剪映草稿和成片"
+  default_prompt: "用 $jianying-tutorial-editing 把这些录屏和实拍剪成教程，交付可编辑的剪映草稿和 MP4。"
