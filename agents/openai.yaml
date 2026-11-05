@@ -1,4 +1,4 @@
 interface:
-  display_name: "剪映教程视频剪辑"
-  short_description: "将录屏和实拍剪成可分轨精修的教程，交付剪映草稿和成片"
-  default_prompt: "用 $jianying-tutorial-editing 把这些录屏和实拍剪成教程，交付可编辑的剪映草稿和 MP4。"
+  display_name: "剪映口播与教程视频剪辑"
+  short_description: "用剪映制作口播和教程，结合 Agent Motion 动效交付分轨草稿"
+  default_prompt: "用 $jianying-tutorial-editing 把这段口播和录屏做成带动效的教程，交付剪映可编辑草稿和成片。"
