@@ -1,0 +1,17 @@
+{
+  "template_only": true,
+  "project": {"name": "填写项目名", "width": 1920, "height": 1080, "fps": {"num": 30, "den": 1}, "duration_frames": 300},
+  "route": "talking_head",
+  "style": {"fonts": [], "tokens": {}, "preview_images": [], "approval_or_autonomy": "pending"},
+  "dependencies": {"agent_motion": {"entrypoint": "", "version": "", "status": "not_checked"}, "video_shotcraft": {"entrypoint": "", "version": "", "status": "not_checked"}},
+  "audio_mode": "preserve_voice",
+  "shots": [{
+    "id": "shot-001", "chapter": "01 开场", "owner": "agent_motion", "purpose": "填写语义和证据任务",
+    "target_frames": [0, 300], "sources": [], "anchors": [],
+    "shotcraft_card": null,
+    "layers": [{"role": "title", "delivery": "jianying_native_text", "source_path": "", "editable_in_jianying": ["text", "position", "keyframes"], "rerender_entry": null}],
+    "qa": {"source_preview": "pending", "native_client": "pending"}
+  }],
+  "timeline": {"organization": "native_chapter_compounds", "separate_roles": ["captions", "voice", "music", "sfx"]},
+  "verification": {"styleframes": "pending", "sample": "pending", "native_editability": "pending", "full_playback": "pending", "export_decode": "pending"}
+}
